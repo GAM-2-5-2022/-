@@ -324,7 +324,7 @@ while run:
                 run = False
     
     if pitanje == 'pitanje8' and wrong == False:
-        draw_text('Koja je država SAD-a na istočnoj obali?', font, boja1, 10, 25)
+        draw_text('Koja je država SAD-a na zapadnoj obali?', font, boja1, 10, 25)
         if pitanje8_1_button.draw(screen):
             br -= 1
             if br == 0:
@@ -359,7 +359,7 @@ while run:
             pitanje = 'pitanje10'
         
     if pitanje == 'pitanje10' and wrong == False:
-        draw_text('Ko sloloa fight?', font, boja1, 10, 25)
+        draw_text('Ko soloa fight?', font, boja1, 10, 25)
         if pitanje0_1_button.draw(screen):
             pitanje = 'pitanje11'
         if pitanje0_2_button.draw(screen):
